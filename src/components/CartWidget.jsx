@@ -1,7 +1,14 @@
+import Button from 'react-bootstrap/Button';
+import { FaBeer } from 'react-icons/fa';
+
 
 const CartWidget = () => {
   return (
-    <div>CartWidget</div>
+    <div>
+      <Button variant="light">
+        <FaBeer /> Carrito
+      </Button>{' '}
+    </div>
   )
 }
 
