@@ -10,13 +10,13 @@ const NavBar = () => {
       <Navbar bg="dark" variant="dark">
         <Container>
           <Navbar.Brand href="#home">
-            {/*<img
+            <img
               alt=""
-              src="/logo.svg"
+              src="src\assets\images\logo.svg"
               width="30"
               height="30"
               className="d-inline-block align-top"
-            />{' '}*/}
+            />{' '}
             Ecommerce
           </Navbar.Brand>
             <CartWidget/>
